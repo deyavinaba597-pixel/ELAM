@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ELAM — Extremely Large Action Model</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',sans-serif;background:#0a0a0f;color:#e0e0e0;line-height:1.6}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 60px;border-bottom:1px solid #1a1a2e;position:sticky;top:0;background:#0a0a0f;z-index:100}
+.logo{font-size:1.5rem;font-weight:700;background:linear-gradient(135deg,#6c63ff,#00d4ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+nav a{color:#aaa;text-decoration:none;margin-left:30px;font-size:0.9rem}
+.hero{text-align:center;padding:120px 60px 80px;background:radial-gradient(ellipse at center,#1a0a3e 0%,#0a0a0f 70%)}
+.badge{display:inline-block;background:#1a1a2e;border:1px solid #6c63ff;color:#6c63ff;padding:6px 16px;border-radius:20px;font-size:0.8rem;margin-bottom:24px}
+h1{font-size:3.5rem;font-weight:800;margin-bottom:20px;background:linear-gradient(135deg,#fff 0%,#6c63ff 50%,#00d4ff 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;line-height:1.2}
+.subtitle{font-size:1.2rem;color:#888;max-width:600px;margin:0 auto 40px}
+.btn-primary{background:linear-gradient(135deg,#6c63ff,#00d4ff);color:#fff;padding:14px 32px;border-radius:8px;text-decoration:none;font-weight:600}
+.stats{display:flex;justify-content:center;gap:60px;padding:60px;border-bottom:1px solid #1a1a2e;flex-wrap:wrap}
+.stat{text-align:center}
+.stat-number{font-size:2.5rem;font-weight:800;background:linear-gradient(135deg,#6c63ff,#00d4ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.stat-label{color:#666;font-size:0.9rem}
+section{padding:80px 60px;max-width:1200px;margin:0 auto}
+h2{font-size:2rem;font-weight:700;margin-bottom:16px;color:#fff}
+.features{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;margin-top:40px}
+.feature-card{background:#0f0f1a;border:1px solid #1a1a2e;border-radius:12px;padding:28px}
+.feature-icon{font-size:2rem;margin-bottom:16px}
+.feature-card h3{font-size:1.1rem;font-weight:600;margin-bottom:10px;color:#fff}
+.feature-card p{color:#666;font-size:0.9rem}
+.pral{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:40px}
+.pral-step{background:#0f0f1a;border:1px solid #1a1a2e;border-radius:12px;padding:24px;text-align:center}
+.pral-letter{font-size:2.5rem;font-weight:800;background:linear-gradient(135deg,#6c63ff,#00d4ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.pral-step h3{color:#fff;margin:8px 0}
+.pral-step p{color:#666;font-size:0.85rem}
+.tech-stack{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.tech-tag{background:#0f0f1a;border:1px solid #1a1a2e;color:#aaa;padding:8px 16px;border-radius:6px;font-size:0.85rem}
+footer{text-align:center;padding:40px;border-top:1px solid #1a1a2e;color:#444;font-size:0.85rem}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">ELAM</div>
+  <div><a href="#features">Features</a><a href="#architecture">Architecture</a><a href="#technology">Technology</a></div>
+</nav>
+<div class="hero">
+  <div class="badge">ASI/AGI-GRADE AUTONOMOUS INTELLIGENCE</div>
+  <h1>Extremely Large<br>Action Model</h1>
+  <p class="subtitle">The next generation of AI — not just a language model, but an autonomous intelligence that perceives, reasons, acts, and learns.</p>
+  <a href="#features" class="btn-primary">Explore ELAM</a>
+</div>
+<div class="stats">
+  <div class="stat"><div class="stat-number">72B</div><div class="stat-label">Parameters (Target)</div></div>
+  <div class="stat"><div class="stat-number">8</div><div class="stat-label">Expert Networks (MoE)</div></div>
+  <div class="stat"><div class="stat-number">128K</div><div class="stat-label">Context Window</div></div>
+  <div class="stat"><div class="stat-number">10K+</div><div class="stat-label">Concurrent Agents</div></div>
+</div>
+<section id="features">
+  <h2>Beyond Language Models</h2>
+  <div class="features">
+    <div class="feature-card"><div class="feature-icon">🧠</div><h3>Mixture of Experts Brain</h3><p>8 specialized expert networks. Each expert masters a domain: reasoning, tool-use, vision, code, planning.</p></div>
+    <div class="feature-card"><div class="feature-icon">🔄</div><h3>Continual Learning</h3><p>24/7 training pipeline. ELAM gets smarter every day without forgetting what it already knows.</p></div>
+    <div class="feature-card"><div class="feature-icon">⚡</div><h3>Multi-head Latent Attention</h3><p>90% KV cache reduction. 10x more concurrent agents on the same hardware.</p></div>
+    <div class="feature-card"><div class="feature-icon">🎯</div><h3>Agentic Reinforcement Learning</h3><p>GRPO training with Process Reward Models. Learns to reason and act from real task outcomes.</p></div>
+    <div class="feature-card"><div class="feature-icon">👁️</div><h3>Real-Time Vision and Voice</h3><p>Live screen narration, voice interaction, and multi-modal perception in real time.</p></div>
+    <div class="feature-card"><div class="feature-icon">🤝</div><h3>Collective Intelligence</h3><p>Multiple ELAM agents collaborate and solve complex problems through emergent collective reasoning.</p></div>
+  </div>
+</section>
+<section id="architecture">
+  <h2>The PRAL Loop</h2>
+  <div class="pral">
+    <div class="pral-step"><div class="pral-letter">P</div><h3>Perceive</h3><p>Gather data from APIs, sensors, screen, voice in real time</p></div>
+    <div class="pral-step"><div class="pral-letter">R</div><h3>Reason</h3><p>MoE brain analyzes context and generates step-by-step plans</p></div>
+    <div class="pral-step"><div class="pral-letter">A</div><h3>Act</h3><p>Execute tasks via tools in sandboxed environments</p></div>
+    <div class="pral-step"><div class="pral-letter">L</div><h3>Learn</h3><p>Reflect on outcomes and feed the continual training pipeline</p></div>
+  </div>
+</section>
+<section id="technology">
+  <h2>Technology Stack</h2>
+  <div class="tech-stack">
+    <span class="tech-tag">Qwen 2.5 72B</span><span class="tech-tag">Mixture of Experts</span><span class="tech-tag">MLA Attention</span><span class="tech-tag">GRPO RL</span><span class="tech-tag">LoRA/QLoRA</span><span class="tech-tag">AWQ INT4</span><span class="tech-tag">vLLM</span><span class="tech-tag">Speculative Decoding</span><span class="tech-tag">Process Reward Model</span><span class="tech-tag">DPO</span><span class="tech-tag">EWC</span><span class="tech-tag">Qdrant</span><span class="tech-tag">Kafka</span><span class="tech-tag">Kubernetes</span><span class="tech-tag">PyTorch</span>
+  </div>
+</section>
+<footer><p>2026 ELAM — Extremely Large Action Model. Building the future of autonomous intelligence.</p></footer>
+</body>
+</html>
